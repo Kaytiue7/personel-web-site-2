@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-blue: #316FB1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary-blue: #316FB1;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 🔵 Özel renk class'ları */
+.bg-primary-blue {
+  background-color: var(--primary-blue);
+}
+
+.text-primary-blue {
+  color: var(--primary-blue);
+}
+
+.border-primary-blue {
+  border-color: var(--primary-blue);
+}
+
+.hover\:bg-primary-blue:hover {
+  background-color: var(--primary-blue);
+}
+
+.hover\:text-primary-blue:hover {
+  color: var(--primary-blue);
+}

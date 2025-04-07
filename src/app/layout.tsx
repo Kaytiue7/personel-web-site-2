@@ -1,0 +1,29 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+import { poppins } from '@/app/ui/fonts';
+
+
+import ScrollHide from "@/app/tools/scrollHide";
+import HideButtons from "@/app/tools/scrollButtons";
+
+export const metadata: Metadata = {
+  title: "Volkan Gümüş",
+  description: "Volkan Gümüş'ün kişisel web sitesi",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+
+  return (
+    <html lang="en">
+      <body className={`${poppins.className} antialiased`} style={{ backgroundColor: "#FFF" }}>
+        {children}
+        <ScrollHide /> 
+      </body>
+    </html>
+  );
+}
