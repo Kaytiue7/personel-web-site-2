@@ -36,14 +36,12 @@ export default function Header() {
   return (
     <>
       <div className="flex flex-row items-center text-white justify-between bg-primary-blue w-full px-6 py-4 h-[6lvh]">
-        <VscListSelection
-          
-          className="text-4xl cursor-pointer"
-          onClick={toggleSideBar}
-          ref={sideBarToggleRef}
-        />
+        <div ref={sideBarToggleRef} onClick={toggleSideBar}>
+          <VscListSelection className="text-4xl cursor-pointer" />
+        </div>
         <h1 className="text-2xl">Volkan Gümüş</h1>
       </div>
+
 
       {/* Sidebar */}
       <div
