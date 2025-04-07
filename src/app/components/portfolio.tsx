@@ -11,8 +11,8 @@ export default function Portfolio () {
             </div>
 
             <div className="flex w-full h-full p-4 justify-center">
-                <div className="flex flex-col-reverse aspect-auto md:aspect-square md:w-auto md:h-full h-auto rounded-lg p-8 border border-black shadow-xl shadow-black">
-                    <div className="flex flex-row justify-between items-center md:w-full md:h-full pt-6">
+                <div className="flex flex-col-reverse md:w-auto md:h-full h-auto rounded-lg p-8 md:p-4 border border-black shadow-xl shadow-black gap-6">
+                    <div className="flex flex-row justify-between items-center md:w-full md:h-full">
                         <div>
                           <button 
                             className={"bg-gray-900 text-white p-4 md:p-6 rounded-full aspect-square cursor-pointer"}
@@ -21,7 +21,7 @@ export default function Portfolio () {
                           </button>
                         </div>
 
-                        <div className="flex flex-col items-center justify-center w-full h-full px-4">
+                        <div className="flex flex-col items-center justify-center w-full h-full px-4 md:px-8">
                             <h1 className="text-4xl md:text-8xl font-bold">DEXTER</h1>  
                             <p className="text-sm md:text-2xl mt-2">tonigh is the night</p>
                         </div>
@@ -40,13 +40,13 @@ export default function Portfolio () {
                     </div>
 
                     <div className="flex justify-between w-full h-full">
-                        <div>
+                        <div className="md:px-3">
                             <FaGithub className="text-black text-6xl cursor-pointer opacity-0 absolute md:opacity-100 md:relative" />
                         </div>
                         
                         <img src='/dex.jpg' className="flex aspect-square self-center justify-center rounded-4xl shadow-lg shadow-black"></img>
                         
-                        <div>
+                        <div className="md:px-3">
                             <FaGithub className="text-black text-6xl cursor-pointer opacity-0 absolute md:relative" />
                         </div>
                     </div>

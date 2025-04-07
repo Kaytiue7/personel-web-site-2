@@ -18,7 +18,7 @@ export default function Home() {
       <Main />
       <Portfolio />
 
-      <footer className="flex self-center justify-center w-full">
+      <footer className="flex self-center justify-center w-full pt-14">
         <Footer />
       </footer>
     </div>
