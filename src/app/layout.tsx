@@ -5,7 +5,6 @@ import { poppins } from '@/app/ui/fonts';
 
 
 import ScrollHide from "@/app/tools/scrollHide";
-import HideButtons from "@/app/tools/scrollButtons";
 
 export const metadata: Metadata = {
   title: "Volkan Gümüş",
