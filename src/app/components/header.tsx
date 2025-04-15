@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex flex-row items-center text-white justify-between bg-primary-blue w-full px-6 py-4 h-[6lvh]">
+     <div className="flex flex-row items-center justify-between bg-primary-blue px-6 py-4 w-full h-16 z-50">
         <div ref={sideBarToggleRef} onClick={toggleSideBar}>
           <VscListSelection className="text-4xl cursor-pointer" />
         </div>
@@ -53,7 +53,7 @@ export default function Header() {
           
     }
       >
-        <div className="flex flex-col items-start justify-start h-full px-14 py-22">
+        <div className="flex flex-col items-start justify-start h-full px-14 py-22 z-50 bg-white">
           <h2 className="text-6xl font-semibold">Menu</h2>
           <nav className="flex flex-col mt-8 space-y-4">
             <a href="#" className="text-xl">• Main Page</a>

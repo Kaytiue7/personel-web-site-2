@@ -4,7 +4,7 @@ import { BiLogoGmail } from "react-icons/bi"
 
 export default function Main(){
     return (
-        <div className="text-black w-full mx-auto flex flex-col-reverse md:flex-row md:justify-evenly md:px-8 items-center gap-8 h-[90lvh]">
+        <div className="text-black w-full md:mx-auto flex flex-col-reverse md:flex-row justify-start md:px-8 items-center gap-8 h-[90lvh]">
                 <div className="self-center md:mb-[10lvh]">
                   <div className="self-center">
                     <h1 className="text-4xl font-semibold md:text-8xl">
