@@ -16,11 +16,11 @@ export default function Home() {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY <= 0) {
-        setShowHeader(true); // en üstteyken göster
+        setShowHeader(true);  
       } else if (currentScrollY < lastScrollY) {
-        setShowHeader(true); // yukarı kaydırılıyorsa göster
+        setShowHeader(true);  
       } else {
-        setShowHeader(false); // aşağı kaydırılıyorsa gizle
+        setShowHeader(false);  
       }
 
       setLastScrollY(currentScrollY);

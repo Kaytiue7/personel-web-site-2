@@ -55,7 +55,6 @@ export default function Portfolio() {
     };
 
     const currentRepo = repos[currentIndex];
-    const currentUser = githubInfo;
 
     const variants = {
         enter: (direction: "left" | "right") => ({
